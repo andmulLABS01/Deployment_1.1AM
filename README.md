@@ -67,13 +67,23 @@ https://scribehow.com/shared/How_to_Create_and_Deploy_a_Python_URL_Shortener_on_
 
 6. Once you deploy, your deployment to elastic beanstalk will fail or you will see a degraded health status
 
-  a. Login using provided credentials
+  ![image](https://github.com/andmulLABS01/Deployment_1.1AM/blob/main/ELB_status-1_1a.PNG)
    
 7. Navigate to the elastic beanstalk log tab and request the last 100 logs. Download and view  the logs
 
    a. Requested logs and found the error
+   ![image](https://github.com/andmulLABS01/Deployment_1.1AM/blob/main/ELB_status-1_1error.PNG)
    
 9. Use the internet or ChatGPT to assist you in discovering the issue.
 
     a. The error is caused by the application.py file being named incorrectly app.py
-11. **HINT:** The issue is located in the /var/log/web.stdout.log section 
+   	Fixed the issue by
+
+   		-renaming file in Git Repository (Future in case anyone downloads the file) and in the local zip file
+
+   		-Next, you need to upload the new files to ELB and change the version
+
+   		-Finally, redeploy the instance		
+
+    ![image](https://github.com/andmulLABS01/Deployment_1.1AM/blob/main/ELB_status-1_1b.PNG)
+10. **HINT:** The issue is located in the /var/log/web.stdout.log section 
