@@ -86,4 +86,7 @@ https://scribehow.com/shared/How_to_Create_and_Deploy_a_Python_URL_Shortener_on_
    		-Finally, redeploy the instance		
 
     ![image](https://github.com/andmulLABS01/Deployment_1.1AM/blob/main/ELB_status-1_1b.PNG)
-10. **HINT:** The issue is located in the /var/log/web.stdout.log section 
+10. **HINT:** The issue is located in the /var/log/web.stdout.log section
+
+
+ ![image](https://github.com/andmulLABS01/Deployment_1.1AM/blob/main/Depoyment1_1.drawio.png)
